@@ -265,7 +265,7 @@
     </style>
     {% block script_additions %}{% endblock %}
 </head>
-<body class="ak-pagetype-{{ filename|split:'.'|nth:0 }} ak-lang-{{page.lang.iso_code|default:"unknown"}}{% if page.lang.is_rtl %} ak-rtl{% endif %} ak-no-js {% block body_extra_classes %}{% endblock %}" style="font-size: 16pt; color: magenta;">
+<body class="ak-pagetype-{{ filename|split:'.'|nth:0 }} ak-lang-{{page.lang.iso_code|default:"unknown"}}{% if page.lang.is_rtl %} ak-rtl{% endif %} ak-no-js {% block body_extra_classes %}{% endblock %}" style="font-size: 16pt;">
     <script type="text/javascript">actionkit.forms.initPage()</script>
 
     <div class="ak-page-header">
